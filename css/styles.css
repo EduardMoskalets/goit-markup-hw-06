@@ -54,7 +54,7 @@ button {
 
 @media only screen and (min-width: 1158px){
 .container {
-    max-width: 1158px;
+    min-width: 1158px;
 }
 }
 
@@ -110,5 +110,59 @@ button {
     line-height: 0;
 }
 
-/* ============== /header styles============= */
+@media only screen and (min-width: 768px){
+    
+}
 
+/* ============== /header styles============= */
+/* ============== Mobile menu styles============= */
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999999;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+
+    /* opacity: 0;
+    visibility: hidden;
+    transition: opacity 250ms linear, visability 250ms linear; */
+}
+
+/* .mobile-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+} */
+
+.mobile-menu-close-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* --position-- */
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    /* --/position-- */
+}
+
+.mobile-menu-close-icon {
+    fill: #2e2f42;
+}
+
+/* ============== /Mobile menu styles============= */
