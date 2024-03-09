@@ -356,3 +356,110 @@ button {
 /* ============== Main Styles ====================== */
 /* ============== Title section Styles ============= */
 
+@media only screen and (max-width: 767px){
+.title-effective-solution {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #fff;
+    max-width: 216px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 72px;
+
+}
+
+.first-section {
+    background-color: #2e2f42;
+    padding: 188px 0;
+    max-width: 767px;
+    margin: 0 auto;
+
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url(../images/Section-title/background-images-mobile-title-section.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.button-order {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4d5ae5;
+
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    display: block;
+    margin: auto;
+    border: none;
+}
+
+@media only screen and (min-resolution: 192dpi) {
+    .first-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url(../images/Section-title/background-images-mobile-title-section@2x.jpg)
+    }
+}
+
+}
+
+
+
+@media only screen and (min-width: 768px){
+.first-section {
+    background-color: #2e2f42;
+    padding: 112px 0;
+    max-width: 768px;
+    margin: 0 auto;
+
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url(../images/Section-title/background-images-tablet-title-section.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title-effective-solution {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+
+    max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 36px;
+}
+
+.button-order {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4d5ae5;
+
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    display: block;
+    margin: auto;
+    border: none;
+}
+
+}
