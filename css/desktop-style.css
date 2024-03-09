@@ -100,7 +100,6 @@ bottom: -1px;
 height: 4px;
 background-color: #404bbf;
 border-radius: 2px;
-
 }
 
 .ul-contacts-header {
@@ -165,6 +164,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .contacts:focus {
     color: #404bbf;
 }
+
 
 
 /* ------------------------------------/Header ---------------------------------*/
