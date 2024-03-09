@@ -74,14 +74,6 @@ button {
 /* ============== /Common Styles ============= */
 
 /* ============== header styles ============= */
-.address-style,.ul-nav-header {
-    display: none;
-}
-
-.header-class {
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
 
 .header-container {
     display: flex;
@@ -103,6 +95,18 @@ button {
     color: #2e2f42;
 }
 
+
+@media only screen and (max-width: 767px){
+.address-style,
+.ul-nav-header {
+    display: none;
+}
+
+.header-class {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
 .mobile-menu-open-btn {
     background-color: transparent;
     border: none;
@@ -110,15 +114,24 @@ button {
     line-height: 0;
 }
 
+}
+
 @media only screen and (min-width: 768px){
+.address-style,
+.ul-nav-header {
+    display: flex;
+}
+
 .mobile-menu-open-btn{
-display: none;
+    display: none;
 }
 
 }
 
 /* ============== /header styles============= */
 /* ============== Mobile menu styles============= */
+
+@media only screen and (max-width: 767px) {
 
 .mobile-menu-container {
     padding-top: 72px;
@@ -134,12 +147,12 @@ display: none;
     height: 100%;
     background-color: #ffffff;
 
-    /* opacity: 0;
+    opacity: 0;
     visibility: hidden;
-    transition: opacity 250ms linear, visability 250ms linear; */
+    transition: opacity 250ms linear, visability 250ms linear;
 }
 
-/* .mobile-menu.is-open {
+    /* .mobile-menu.is-open {
     opacity: 1;
     visibility: visible;
 } */
@@ -167,7 +180,7 @@ display: none;
     top: 24px;
     right: 24px;
     /* --/position-- */
-}
+    }
 
 .mobile-menu-close-icon {
     fill: #2e2f42;
@@ -235,7 +248,12 @@ display: none;
     justify-content: center;
     align-items: center;
 }
+}
 
-
+@media only screen and (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
+}
 
 /* ============== /Mobile menu styles============= */
