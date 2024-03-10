@@ -530,4 +530,31 @@ button {
 
 }
 
+@media only screen and (min-width: 768px){
+.icon-our-benefits {
+    display: none;
+}
+
+.section-our-benefits {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.ul-our-benefits {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 72px 24px;
+
+}
+
+.li-our-benefits {
+    width: 356px;
+}
+
+.title-our-benefits {
+    margin-bottom: 8px;
+}
+}
 /* ============== /Our Benefits section ============= */
