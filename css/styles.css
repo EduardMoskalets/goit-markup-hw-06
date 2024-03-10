@@ -492,5 +492,42 @@ button {
 
 /* ============== Our Benefits section ============= */
 
+@media only screen and (max-width: 767px){
+.icon-our-benefits {
+    display: none;
+}
+
+.section-our-benefits {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.ul-our-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.title-our-benefits {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+
+    margin-bottom: 8px;
+}
+
+.text-our-benefits {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+}
 
 /* ============== /Our Benefits section ============= */
