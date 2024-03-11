@@ -482,6 +482,12 @@ button {
     
 }
 
+@media only screen and (min-resolution: 192dpi) {
+    .first-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), url(../images/Section-title/background-images-title-section@2x.jpg);
+}
+}
 .title-effective-solution {
     margin-bottom: 48px;
 }
@@ -603,3 +609,8 @@ button {
 }
 
 /* ============== /Our Benefits section ============= */
+
+/* ============== Our Team section ================== */
+
+
+/* ============== /Our Team section ================= */
