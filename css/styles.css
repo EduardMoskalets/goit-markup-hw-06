@@ -802,5 +802,17 @@ button {
     flex-wrap: nowrap;
     gap: 24px
 }
+
+.li-a-our-team:hover,
+.li-a-our-team:focus {
+    background-color: #404bbf;
 }
+}
+
 /* ============== /Our Team section ================= */
+
+/* ============== Our Portfolio section ================= */
+
+
+
+/* ============== /Our Portfolio section ================ */
