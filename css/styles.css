@@ -866,8 +866,64 @@ button {
 }
 
 @media only screen and (min-width: 768px){
-    
+.p-img-our-portfolio {
+        display: none;
+}
 
+
+.section-our-porfolio {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+}
+
+.title-our-portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+
+    margin-bottom: 72px;
+}
+
+.ul-our-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+}
+
+.li-our-porfolio {
+    width: 356px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.div-name-proffesion {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.name-app {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+    margin-bottom: 8px;
+}
+
+.about-app {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 @media only screen and (min-width: 1158px){
