@@ -612,5 +612,195 @@ button {
 
 /* ============== Our Team section ================== */
 
+@media only screen and (max-width:767px){
 
+.our-team {
+    background-color: #F4F4FD;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.ul-our-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+    border-radius: 0 0 4px 4px;
+}
+
+.backcolor-photo {
+    background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+
+}
+
+.div-nick-name {
+    width: 232px;
+    margin: 32px 16px;
+}
+
+.text-our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+
+    margin-bottom: 72px;
+}
+
+.name-our-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+
+    margin-bottom: 8px;
+}
+
+.proffesion {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+
+    margin-bottom: 8px;
+}
+
+.ul-icon-ourteam {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.first-li-ourteam {
+    width: 40px;
+    height: 40px;
+}
+
+.li-a-our-team {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+@media only screen and (min-width: 768px){
+
+.our-team-container {
+    padding: 96px 108px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.text-our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+
+    margin-bottom: 72px;
+    }
+
+.ul-our-team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    border-radius: 0 0 4px 4px;
+}
+
+.backcolor-photo {
+    background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+
+}
+
+.div-nick-name {
+    width: 232px;
+    margin: 32px 16px;
+}
+
+.name-our-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+
+    margin-bottom: 8px;
+}
+
+.proffesion {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+
+    margin-bottom: 8px;
+}
+
+.ul-icon-ourteam {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.first-li-ourteam {
+    width: 40px;
+    height: 40px;
+}
+
+.li-a-our-team {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+@media only screen and (min-width: 1158px){
+.our-team-container {
+    padding: 120px 0;
+}
+
+.our-team-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.ul-our-team {
+    flex-wrap: nowrap;
+    gap: 24px
+}
+}
 /* ============== /Our Team section ================= */
