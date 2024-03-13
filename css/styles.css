@@ -256,6 +256,10 @@ button {
     visibility: visible;
 } */
 
+.mobile-menu {
+    
+}
+
 .mobile-menu-container {
     display: flex;
     flex-direction: column;
@@ -291,12 +295,17 @@ button {
     fill: #2e2f42;
 }
 
+
+.contacts-mobile {
+    
+}
+
 .mobile-nav-menu {
     display: flex;
     flex-direction: column;
     gap: 40px;
 
-    margin-bottom: 168px;
+    margin-bottom: auto;
 }
 
 .mobile-nav-header {
@@ -313,13 +322,19 @@ button {
     color: #404bbf;
 }
 
+.mobile-address-style {
+
+}
+
 .mobile-ul-contacts-header {
     display: flex;
     flex-direction: column;
     gap: 24px;
 
     margin-bottom: 48px;
+}
 
+.mobile-menu-bottom {
     margin-top: auto;
 }
 
