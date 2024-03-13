@@ -45,6 +45,12 @@ button {
     margin: 0 auto;
 }
 
+@media only screen and (min-width:320px) and (max-width:1157px){
+.p-img-our-portfolio {
+    display: none;
+}
+}
+
 @media only screen and (min-width: 768px){
 .container {
     min-width: 768px;
@@ -227,11 +233,6 @@ button {
 
 @media only screen and (max-width: 767px) {
 
-.mobile-menu-container {
-    padding-top: 72px;
-    padding-bottom: 40px;
-}
-
 .mobile-menu {
     position: fixed;
     top: 0;
@@ -241,12 +242,16 @@ button {
     height: 100%;
     background-color: #ffffff;
 
-    opacity: 0;
+    padding-top: 72px;
+    padding-bottom: 40px;
+
+
+    /* opacity: 0;
     visibility: hidden;
-    transition: opacity 250ms linear, visability 250ms linear;
+    transition: opacity 250ms linear, visability 250ms linear; */
 }
 
-    /* .mobile-menu.is-open {
+/* .mobile-menu.is-open {
     opacity: 1;
     visibility: visible;
 } */
@@ -274,7 +279,7 @@ button {
     top: 24px;
     right: 24px;
     /* --/position-- */
-    }
+}
 
 .mobile-menu-close-icon {
     fill: #2e2f42;
@@ -284,8 +289,6 @@ button {
     display: flex;
     flex-direction: column;
     gap: 40px;
-
-    margin-bottom: 168px;
 }
 
 .mobile-nav-header {
@@ -311,6 +314,7 @@ button {
 }
 
 .mobile-contacts {
+    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -319,6 +323,11 @@ button {
 }
 
 .mobile-tel {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #4d5ae5;
 }
 
@@ -375,7 +384,7 @@ button {
 
 .first-section {
     background-color: #2e2f42;
-    padding: 188px 0;
+    padding: 72px 0px;
     max-width: 767px;
     margin: 0 auto;
 
@@ -543,9 +552,27 @@ button {
 
 @media only screen and (min-width: 768px){
 
+.title-our-benefits {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.text-our-benefits {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+}
+
 .section-our-benefits {
     padding-top: 96px;
     padding-bottom: 96px;
+
 }
 
 .ul-our-benefits {
@@ -602,6 +629,10 @@ button {
 
 .text-our-benefits {
     font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
 }
 
 
@@ -701,13 +732,16 @@ button {
 @media only screen and (min-width: 768px){
 
 .our-team-container {
-    padding: 96px 108px;
+    
+}
+.our-team {
+    padding-top: 96px;
+    padding-bottom: 96px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.our-team {
+
     background-color: #F4F4FD;
 }
 
@@ -872,10 +906,6 @@ button {
 
 
 @media only screen and (min-width: 768px){
-.p-img-our-portfolio {
-    display: none;
-}
-
 
 .section-our-porfolio {
     padding-top: 96px;
@@ -928,60 +958,85 @@ button {
 
 
 @media only screen and (min-width: 1158px){
+
 .title-our-portfolio {
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        text-align: center;
-        color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
 
-        margin-bottom: 72px;
-    }
+    margin-bottom: 72px;
+}
 
-    .ul-our-portfolio {
-        display: flex;
-        flex-wrap: wrap;
-        row-gap: 48px;
-        column-gap: 24px;
-    }
+.ul-our-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+}
 
-    .li-our-porfolio {
-        width: calc((100% - 48px) / 3);
-        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+.li-our-portfolio {
+    width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-    .li-our-porfolio:hover,
-    .li-our-porfolio:focus {
-        box-shadow:
-        0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
-    }
+.li-our-portfolio:hover,
+.li-our-portfolio:focus {
+    box-shadow:
+    0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
-    .div-name-proffesion {
-        padding: 32px 16px;
-        border: 1px solid #e7e9fc;
-        border-top: none;
-    }
+.li-our-porfolio:hover .p-img-our-portfolio {
+    transform: translateY(0%);
+}
 
-    .name-app {
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+.div-overlay-our-portfolio {
+    position: relative;
+    overflow: hidden;
+}
 
-        margin-bottom: 8px;
-    }
+.p-img-our-portfolio {
+    position: absolute;
+    top: 0;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-    .about-app {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-    }
+.div-name-proffesion {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.name-app {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+    margin-bottom: 8px;
+}
+
+.about-app {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 }
 
 /* ============== /Our Portfolio section ================ */
@@ -1298,7 +1353,7 @@ button {
 }
 
 .p-social {
-    margin-bottom: 0;
+    margin-bottom: 16px;
 }
 
 .about-link-footer {
