@@ -319,6 +319,8 @@ button {
     gap: 24px;
 
     margin-bottom: 48px;
+
+    margin-top: auto;
 }
 
 .mobile-contacts {
