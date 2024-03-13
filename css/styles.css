@@ -256,6 +256,12 @@ button {
     visibility: visible;
 } */
 
+.mobile-menu-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .mobile-menu-close-btn {
     background-color: transparent;
     border: none;
@@ -289,6 +295,8 @@ button {
     display: flex;
     flex-direction: column;
     gap: 40px;
+
+    margin-bottom: 168px;
 }
 
 .mobile-nav-header {
