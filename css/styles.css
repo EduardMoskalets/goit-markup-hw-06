@@ -246,15 +246,15 @@ button {
     padding-bottom: 40px;
 
 
-    /* opacity: 0;
+    opacity: 0;
     visibility: hidden;
-    transition: opacity 250ms linear, visability 250ms linear; */
+    transition: opacity 250ms linear, visability 250ms linear;
 }
 
-/* .mobile-menu.is-open {
+.mobile-menu.is-open {
     opacity: 1;
     visibility: visible;
-} */
+}
 
 .mobile-menu {
 
